@@ -93,7 +93,7 @@ export default {
     grid-template-columns: 1fr;
   }
   .app-spacex-program-filter {
-    width: auto;
+    width: auto !important;
   }
 }
 </style>
