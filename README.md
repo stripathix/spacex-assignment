@@ -28,7 +28,7 @@ $ npm run generate
 
 
 ### Mobile View
-![Alt text](docs/img/Mobile.png?raw=true "Mobile view")
+![Alt text](docs/img/mobile.png?raw=true "Mobile view")
 
 ## Lighthouse report
 Have > 81% code coverage
@@ -50,8 +50,8 @@ Heroku Deployment
 * Deployment: Heroku
 
 ### GIT Best practices used
-Prevent from commiting if any Unit Test fails or linitng fails using pre-commit-hooks
-Added commit messaged linitng to prevent random commit message help(https://github.com/conventional-changelog/commitlint/#what-is-commitlint)
+* Prevent from commiting if any Unit Test fails or linitng fails using pre-commit-hooks
+* Added commit messaged linitng to prevent random commit message help(https://github.com/conventional-changelog/commitlint/#what-is-commitlint)
 
 ### Contributor
 Shashwat Triapathi
