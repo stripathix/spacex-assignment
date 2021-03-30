@@ -49,10 +49,22 @@ Have > 81% coverage
 Heroku Deployment
 ![Alt text](docs/img/heroku.png?raw=true "Heroku Deployment")
 
+## CI - CircleCI
+CircleCITestAndDeploy Test & Deploy
+![Alt text](docs/img/CircleCITestAndDeploy.png?raw=true "CircleCITestAndDeploy Test & Deploy")
+
+CircleCI Unit Test
+![Alt text](docs/img/CircleCITest.png?raw=true "CircleCI Unit Test")
+
+CircleCI Deplyoment
+![Alt text](docs/img/CircleCIDeployment.png?raw=true "CircleCI Deplyoment")
+
+
 ### Tech Stack
 * SSR Framework: NuxtJS
 * Frontend: VueJS
 * Unit Test: Jest
+* CI: CircleCI
 * Deployment: Heroku
 
 ### GIT Best practices used
