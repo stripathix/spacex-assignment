@@ -17,10 +17,16 @@ $ npm run start
 $ npm run generate
 ```
 
+### Application URL
+https://spacex-assignment-sapient.herokuapp.com/
+
 ## UI View
 
 ### Desktop View
 ![Alt text](docs/img/desktop.png?raw=true "Desktop view")
+
+### Large Desktop View > width 1440px
+![Alt text](docs/img/large-desktop.png?raw=true "Desktop view")
 
 
 ### Tablet View
@@ -31,7 +37,7 @@ $ npm run generate
 ![Alt text](docs/img/mobile.png?raw=true "Mobile view")
 
 ## Lighthouse report
-Have > 81% code coverage
+Lighthouse report for Performance, SEO, Best Practices and Accessibility
 ![Alt text](docs/img/lighthouse-report.png?raw=true "Lighthouse report for Performance, SEO, Best Practices and Accessibility")
 
 ## Unit Test Coverage
