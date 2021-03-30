@@ -3,6 +3,21 @@
     <Nuxt />
   </div>
 </template>
+<script>
+export default {
+  head() {
+    return {
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Spacex assignment for sapient',
+        },
+      ],
+    }
+  },
+}
+</script>
 
 <style>
 html {

@@ -21,6 +21,7 @@ import SpacexProgramFilter from '../components/SpacexProgramFilter.vue'
 import SpacexPrograms from '../components/SpacexPrograms.vue'
 
 export default {
+  name: 'AppDashboardPage',
   components: {
     SpacexProgramFilter,
     SpacexPrograms,

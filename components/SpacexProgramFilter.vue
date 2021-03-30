@@ -5,7 +5,7 @@
     </h5>
     <div class="text-center">Launch Year</div>
     <hr />
-    <div class="filters">
+    <div class="app-launch-years filters">
       <button
         v-for="launchYear in launchYears"
         :key="launchYear"
@@ -23,7 +23,7 @@
     </div>
     <div class="text-center">Successful Launch</div>
     <hr />
-    <div class="filters">
+    <div class="app-launch-sucess filters">
       <button
         type="button"
         :class="filters.launch_success === true ? 'active' : ''"
@@ -51,7 +51,7 @@
     </div>
     <div class="text-center">Successful Landing</div>
     <hr />
-    <div class="filters">
+    <div class="app-land-sucess filters">
       <button
         type="button"
         :class="filters.land_success === true ? 'active' : ''"

@@ -1,6 +1,8 @@
 <template>
   <div class="app-spacex-programs">
-    <div v-if="!spacexPrograms.length">No Programs found</div>
+    <div v-if="!spacexPrograms.length" class="app-no-data-found-message">
+      No Programs found
+    </div>
     <spacex-propgrams-item
       v-for="program in spacexPrograms"
       v-else

@@ -1,15 +1,15 @@
 <template>
-  <div class="app-spacex-program-item card">
-    <div class="image-container">
+  <div class="app-spacex-program-item">
+    <div>
       <img
         v-lazy-load
         :data-src="spacexProgram.links.mission_patch_small"
-        alt=""
-        title=""
+        :alt="spacexProgram.mission_name"
+        :title="spacexProgram.mission_name"
       />
     </div>
     <div class="app-spacex-program-details">
-      <label class="program-name">
+      <label class="app-program-name">
         {{ spacexProgram.mission_name }} #{{ spacexProgram.flight_number }}
       </label>
       <div><label>Mission Ids:</label> {{ missionIds }}<span></span></div>
@@ -17,7 +17,9 @@
       <div>
         <label>Successful Launch:</label> {{ spacexProgram.launch_success }}
       </div>
-      <div><label>Successful landing:</label></div>
+      <div>
+        <label>Successful landing: {{ spacexProgram.land_success }}</label>
+      </div>
     </div>
   </div>
 </template>
@@ -48,7 +50,7 @@ export default {
   background: #f2f2f2;
   width: 100%;
 }
-.program-name {
+.app-program-name {
   color: #485393;
 }
 .app-spacex-program-details label {
